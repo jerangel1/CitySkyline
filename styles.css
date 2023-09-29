@@ -276,27 +276,26 @@ body {
             var(--window-color3) 30%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     :root {
-        --building-color1: #000;
-        --building-color2: #000;
-        --building-color3: #000;
-        --building-color4: #000;
-        --window-color1: #777;
-        --window-color2: #777;
-        --window-color3: #777;
-        --window-color4: #777;
+        --building-color1: #333;
+        --building-color2: #444;
+        --building-color3: #555;
+        --building-color4: #666;
+        --window-color1: #aaa;
+        --window-color2: #bbb;
+        --window-color3: #ccc;
+        --window-color4: #ddd;
     }
 
 }
 
+
 .sky {
     background: radial-gradient(closest-corner circle at 15% 15%,
-            #ccc,
-            #ccc 20%,
-            #445 21%,
-            #223 100%);
+            #ffcf33,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%);
 }
-footer{
-    transform: rotate(90deg);
-}
+
